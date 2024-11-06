@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/chaithragp12/weather_app/static/css/main.213c4998.css",
+    "main.js": "/chaithragp12/weather_app/static/js/main.ea0767e1.js",
+    "static/js/787.d9312eb8.chunk.js": "/chaithragp12/weather_app/static/js/787.d9312eb8.chunk.js",
+    "static/media/forest.gif": "/chaithragp12/weather_app/static/media/forest.2567f692387b5e73f2d7.gif",
+    "index.html": "/chaithragp12/weather_app/index.html",
+    "main.213c4998.css.map": "/chaithragp12/weather_app/static/css/main.213c4998.css.map",
+    "main.ea0767e1.js.map": "/chaithragp12/weather_app/static/js/main.ea0767e1.js.map",
+    "787.d9312eb8.chunk.js.map": "/chaithragp12/weather_app/static/js/787.d9312eb8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.213c4998.css",
+    "static/js/main.ea0767e1.js"
+  ]
+}
