@@ -1,0 +1,93 @@
+body {
+  background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.418) ), url('./assets/forest.gif');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  margin: 0;
+  font: 0.9rem sans-serif;
+  color: #1e2432;
+  height: 100%;
+}
+
+.main-container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 5%;
+}
+
+.search {
+  outline: none;
+  text-align: center;
+  padding: 15px 6.8%;
+  border-radius: 20px;
+  border: none;
+  margin-bottom: 3%;
+  background: rgba(250, 250, 250, 0.9);
+}
+
+.city {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 3%;
+  border-radius: 20px;
+  background: rgba(218, 213, 213, 0.65);
+  box-shadow: 10px 10px 5px 0px rgba(15, 15, 15, 0.404);
+  width: 50%;
+}
+.city-temp {
+  font-size: 4rem;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-left: 0px;
+  color: #1e2432;
+}
+.city sup {
+  font-size: 0.5em;
+}
+.forecast_date{
+  padding: 20px 10px 0px 0px;
+  width: 100px;
+}
+
+.forecast_type{
+  padding: 20px 10px 0px 0px;
+  width: 80px;
+}
+
+.forecast_time{
+  padding: 20px 10px 0px 0px;
+  width: 150px;
+}
+
+/* mobile view */
+@media screen and (max-width: 600px) {
+  .search {
+    width: 70%;
+  }
+  .city {
+    width: 75%;
+    display:block;
+    padding: 10px 3%;
+    text-align: center;
+    margin-bottom: 10%;
+  }
+}
+
+/* ipad view */
+@media screen and (max-width: 992px) {
+  .search {
+    width: 70%;
+  }
+  .city {
+    width: 85%;
+    display:block;
+    padding: 10px 3%;
+    text-align: center;
+    margin-bottom: 10%;
+  }
+
+}
+
