@@ -2,7 +2,7 @@ import React,{ useState,useEffect } from 'react';
 import './App.css';
 import axios from 'axios';
 
-const API_KEY='b004619e53ef49cdb0695122231610'
+const API_KEY='7bb5061083b345989e7145647240611'
 
 function App() {
     const [query, setQuery] = useState('');
